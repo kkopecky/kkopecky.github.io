@@ -3,11 +3,11 @@ import Hero from "@/components/Hero/Hero";
 
 export default function Home() {
   return (
-    <>
+    <main>
       <Navbar />
-      <main className="container mx-auto px-4">
+      <div className="container mx-auto px-4">
         <Hero />
-      </main>
-    </>
+      </div>
+    </main>
   );
 }

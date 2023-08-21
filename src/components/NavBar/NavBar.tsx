@@ -43,7 +43,7 @@ const Navbar = () => {
               <path d="M13 9.5l-2 5.5" />
             </svg>
           </div>
-          <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
+          <span className="self-center text-2xl font-semibold whitespace-nowrapfont-extrabold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
             Kai Kopecky
           </span>
         </a>
@@ -79,7 +79,8 @@ const Navbar = () => {
           <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
             {renderNavItem("/", "Home")}
             {renderNavItem("#about", "About")}
-            {renderNavItem("#blog", "Blog")}
+            {renderNavItem("#expierence", "Expierence")}
+            {renderNavItem("#projects", "Projects")}
             {renderNavItem("#contact", "Contact")}
           </ul>
         </div>
